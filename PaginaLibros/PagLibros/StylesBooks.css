@@ -1,0 +1,59 @@
+
+.contenedor-flex {
+    display: flex;  /* Establece el contenedor como un contenedor flexible */
+ /* Distribuye las figuras horizontalmente con espacio entre ellas */
+    text-align: center; /* Centra verticalmente las figuras dentro del contenedor */
+  }
+
+  .figure1 {
+    border-radius: 20px;
+    margin:20px; /* Elimina el margen por defecto de las figuras */
+    text-align: left;  
+    width:  auto; 
+    height: auto;
+    
+   
+  }
+
+  figure {
+    background-color: whitesmoke;
+    margin:20px; /* Elimina el margen por defecto de las figuras */
+    border-radius: 20px;
+    text-align: left;  
+    width: 300px; 
+    height: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+   
+  }
+
+
+  
+  img {
+    
+    max-width: 100%; /* Asegura que las imágenes no excedan el ancho del contenedor */
+  }
+  
+  a{
+    text-decoration: underline;
+    color:rgba(0, 38, 255, 0.592);
+    
+  }
+
+  .img1{
+    width: 330px;
+  }
+
+
+  .img2{
+    width: 390px;
+  }
+
+  p{
+    margin: 20px;
+  }
+
+cite{
+  margin:30px;
+  
+}
+
